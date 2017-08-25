@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="задачи на применение jQuery "> 
+  <title>#hw8.js</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+
+      <h2> hw № 8 -  jQuery - регулярные выражения - </h2><hr>
+      <h3> Задание. </h3> 
+      <p>  Разработайте скрипт, который получает из input введенный url адрес. Адрес обрабатывается таким образом, что введенные имена приводятся к виду:<br>
+        Ввели<br>
+        • http://primer.ua<br>
+        • http://www.primer.ua<br>
+        • https://primer.ua<br>
+        Получили: primer (удаляются протоколы и локальные зоны)<br>
+        Затем введенная строка обрабатывается по правилам:<br>
+        • все символы о или О заменяются на 0 (нуль)<br>
+        • l заменяются на единицу (символ эль на единицу)<br>
+        • все символы «i» заменяются на 3<br>
+        • все буквы s заменяются на 5 <br>
+        • к результирующей строке добавляется случайный набор из 4-х символов.<br>
+        Результат – выводится на экран.<br>
+
+      </p> <br>
+      <label>Введите url <input type="text" class="inpUrl"> </label>
+      <button class="enter enter_Task1"> Узнать результат </button> 
+      <div class="output"></div> 
+      <hr>
+    </div>
+  </main>
+  <!-- <script src="js/jquery-3.2.1.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/hw8.js"></script>
+</body>
+</html>
